@@ -52,6 +52,7 @@ function Circle(x, y, dx, dy, radius) {
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
         c.strokeStyle = 'blue';
         c.stroke();
+        c.fill();
     }
 
     this.update = function () {
