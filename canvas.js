@@ -39,7 +39,7 @@ var c = canvas.getContext('2d');
 
 // -----------------------ANIMAÇÃO CIRCULOS-----------------------
 
-//EVENTO
+//EVENTO DE INTERAÇÃO COM MOUSE
 
 var mouse = {
     x: undefined,
